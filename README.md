@@ -26,6 +26,16 @@ $ elixir route_requester.exs 100 1.0 5.0 ./routes
 $ elixir merge_geojson.exs "./routes/*" output.geojson
 ```
 
+<details>
+  <summary>
+    Generated image based on final GeoJSON output
+  </summary>
+
+  ![A map of Milwaukee's bicycle network with wider lines representing potentially more popular routes.](/images/network.jpg)
+
+</details>
+
+
 ## Limitations
 
 - Many things are specific to my setup, not directly configurable, and scripts will need to be modified
